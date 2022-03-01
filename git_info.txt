@@ -14,4 +14,5 @@ step 5 click on push button
 step 6 again click on push button 
 step 7 authorise using browser(first time activity) 
 
-
+note- always take latest code before commiting any file
+for latest code - git pull
