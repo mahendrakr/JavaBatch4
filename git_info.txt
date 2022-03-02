@@ -1,4 +1,17 @@
 how to clone a repository ?
 git clone https://github.com/mahendrakr/JavaBatch4.git
 
+how to configure email and username ?
+git config --global user.email "mahendrakumar7028@gmail.com"
+git config --global user.name "mahendrakr" 
+
 how to commit from local repository to remote repository(git hub) ?
+step 1 configure email and username 
+step 2 move file from unstaging area to staging area 
+step 3 write commit message 
+step 4 click on commit button 
+step 5 click on push button 
+step 6 again click on push button 
+step 7 authorise using browser(first time activity) 
+
+
