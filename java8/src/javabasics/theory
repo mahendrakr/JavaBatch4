@@ -1,0 +1,20 @@
+class-it is a blueprint or design from where we can create an object.
+
+object-it is an instance of a class has 
+a)property:we can represent in java with the help of variable.
+       
+b)behaviour:we can represent in java with the help of method(function). 
+       
+purpose of class-to represent a category in java.  
+
+how we can represent a student ,dog ,cat, etc.?
+
+<class> <name>{}
+ class Student{}
+ class Dog{}
+ class Cat{} 
+
+"any fool can write code which machine can understand,
+ good programmer writes code which human can understand"
+ 
+ 
