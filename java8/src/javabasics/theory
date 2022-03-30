@@ -17,3 +17,25 @@ how we can represent a student ,dog ,cat, etc.?
 "any fool can write code which machine can understand,
  good programmer writes code which human can understand"
  
+Declare a variable :
+<datatype> <variable name>;
+eg- int a;
+    String name;
+Define a Variable?
+declaration + initialization 
+eg- int a=10;
+    String name="Akshat";
+Define a Method ?
+<return type> <Method name>(){}
+eg- void eat(){}
+    int getRollNumber(){
+    return 11;
+    }   
+    String getName(){
+    return "Akshat";
+    }
+    int addNumber(int a, int b){
+    return a+b;
+   } 
+    
+       

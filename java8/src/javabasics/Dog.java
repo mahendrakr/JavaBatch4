@@ -30,7 +30,14 @@ public class Dog {
 	void bark() {
 		System.out.println("bhau bhau");
 	}
-
+    String getName() {
+    	return name;
+    	
+    }
+    int addNumber(int a, int b) {
+    	
+    	return a+b;
+    }
 	public static void main(String[] args) {
 		// create an object
 		Dog dog = new Dog();
@@ -46,7 +53,10 @@ public class Dog {
 		dog.run();
 		dog.eat();
 		dog.bark();
-
+      String name=dog.getName();
+    System.out.println(name);   
+	int sum=dog.addNumber(5, 7);
+	System.out.println(sum);
 	}
 
 }
