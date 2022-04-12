@@ -1,5 +1,5 @@
 
-: public class Cat {
+ public class Cat {
 	String name = "Blacky";
 	   String color = "Blue";
 	   String breed = "Russian Blue";
@@ -17,7 +17,7 @@
 	             System.out.println("milk");
 	   }
 
-<<<<<<< HEAD
+
 	   void bark() {
 		   System.out.println("meow meow");
 	   }
@@ -37,13 +37,7 @@
 	          cat.drink();
 	          cat.bark();
 	        		  
-=======
+}
 }
 
 
-
-
-
-
-
->>>>>>> 6c45452edeb1fefce585a8573609f6da7e2c32e8
