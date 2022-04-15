@@ -17,8 +17,8 @@ public class Block {
 		
 	}
 	
-	static {
-		//System.out.println(a);
+	static{
+//		System.out.println(a);
 		System.out.println("static Block"); 
 	} 
 	
