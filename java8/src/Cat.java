@@ -1,4 +1,3 @@
-package javabasics;
 
  public class Cat {
 	String name = "Blacky";
@@ -18,6 +17,7 @@ package javabasics;
 	             System.out.println("milk");
 	   }
 
+
 	   void bark() {
 		   System.out.println("meow meow");
 	   }
@@ -33,11 +33,11 @@ package javabasics;
 	          System.out.println(cat.gender);
 	          System.out.println(cat.height);
 	          System.out.println(cat.weight);
-              cat.run();
-              cat.drink();
-              cat.bark();
-
-   }
-	   
-
+	          cat.run();
+	          cat.drink();
+	          cat.bark();
+	        		  
 }
+}
+
+
