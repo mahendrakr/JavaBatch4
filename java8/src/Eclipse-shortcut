@@ -1,0 +1,10 @@
+syso + ctrl+spacebar = System.out.println();
+main+ctrl+spacebar = public static void main (String[]args){}
+for single line comment=  ctrl+/
+for single line uncomment= ctrl+/
+for multiline comment= ctrl+shift+/
+for multiline uncomment= ctrl+shift+\
+code formatting = ctrl+shift+f
+To search target file(.class file) = ctrl+shift+T
+To search Resource file(.java file) =ctrl+shift+R
+ctrl+D = To delete selected content.
