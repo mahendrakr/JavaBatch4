@@ -27,7 +27,7 @@ eg- int a;
     String name;
     [modifiers] <datatype> <variable> <;> 
     private int a;
-    protected int a;
+    protected int a;                    
     public int a;
     public static int a;
     public final int a;
@@ -48,7 +48,7 @@ eg- void eat(){}
     return "Akshat";
     }
     int addNumber(int a, int b){
-    return a+b;
+    return a+b;                
    } 
     [modifiers] <return type> <method name> <([arguments])> <{}> [;]
 eg- public int add(int a,int b ){};
