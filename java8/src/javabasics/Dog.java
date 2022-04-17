@@ -10,12 +10,12 @@ package javabasics;
  *
  */
 public class Dog {
-	String name = "Moti";
-	String color = "White";
-	String breed = "pomarian";
-	int age = 9;
+	String name = "Shera";
+	String color = "black";
+	String breed = "desi";
+	int age = 4;
 	char gender = 'M';
-	int height = 3;
+	double height = 4.1;
 	double weight = 8.5;
 	boolean isHealthy = true;
 
