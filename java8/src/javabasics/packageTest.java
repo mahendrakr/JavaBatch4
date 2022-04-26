@@ -8,8 +8,8 @@ public class packageTest {
 		int age=stu1.getAge();
 		System.out.println(age);
 		System.out.println(stu1.getAge());
-		Student stu=new Student();
-		javabasics.Student s=new javabasics.Student();// Not Recommended if you are in the same package.
+		Student1 stu=new Student1();
+		javabasics.Student1 s=new javabasics.Student1();// Not Recommended if you are in the same package.
 		pack2.Cat cat=new pack2.Cat();
 		
 	}

@@ -1,6 +1,6 @@
 package javabasics;
 
-public class Student {
+public class Student1 {
    String name = "Aditya";
    String college = "Oriental Institute of Science And Technology"; 
    String branch = "Cse"; 
@@ -23,7 +23,7 @@ public class Student {
 
     public static void main (String[]args){
          // create an object 
-         Student student = new Student();
+         Student1 student = new Student1();
          //call a variable or a method
          System.out.println(student.name);
          System.out.println(student.college);
