@@ -37,7 +37,7 @@ eg- int a;
 Define a Variable?
 declaration + initialization 
 eg- int a=10;
-    String name="Akshat";
+    String name="Hrishabh";
 Define a Method ?
 <return type> <Method name>(){}
 eg- void eat(){}
@@ -45,7 +45,7 @@ eg- void eat(){}
     return 11;
     }   
     String getName(){
-    return "Akshat";
+    return "Hrishsabh";
     }
     int addNumber(int a, int b){
     return a+b;                

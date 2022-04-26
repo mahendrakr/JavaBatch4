@@ -1,8 +1,14 @@
 package pack2;
 
-public class Student {
-	public void printName() {
-		System.out.println("Subodh");	
-		}
+import pack1.Studenta;
 
+public class Student {
+
+	public static void main(String[] args) {
+		
+		Studenta ad=new Studenta();
+		ad.beahviour();
+		
+        Studenta.thinking();
+}
 }

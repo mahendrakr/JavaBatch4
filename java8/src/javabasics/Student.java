@@ -1,12 +1,12 @@
 package javabasics;
 
 public class Student {
-   String name = "Aditya";
-   String college = "Oriental Institute of Science And Technology"; 
-   String branch = "Cse"; 
+   String name = "Hrishabh";
+   String college = "Technocrats Iinstitute of Technology"; 
+   String branch = "CSE"; 
    int age = 21;
    char gender ='M';
-   double weight = 55.6;
+   double weight = 57;
    boolean isMarried = false;
 
    void reader() {
@@ -18,7 +18,7 @@ public class Student {
    } 
    
    void language() {
-           System.out.println("hindi english");
+           System.out.println("hindi , english");
    }
 
     public static void main (String[]args){
