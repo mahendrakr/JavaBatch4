@@ -8,3 +8,5 @@ code formatting = ctrl+shift+f
 To search target file(.class file) = ctrl+shift+T
 To search Resource file(.java file) =ctrl+shift+R
 ctrl+D = To delete selected content.
+ctrl+shift+w = to clear all open class tab.
+TODO ----> window>show view>others>type task.
