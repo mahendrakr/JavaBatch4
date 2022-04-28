@@ -1,10 +1,9 @@
 package javabasics;
 
-<<<<<<< HEAD
+
 public class Cat {
-=======
- public class Cat {
->>>>>>> e82fd5461f859dec80179122515aee32620a9bbe
+
+
 	String name = "Blacky";
 	   String color = "Blue";
 	   String breed = "Russian Blue";
@@ -37,19 +36,16 @@ public class Cat {
 	          System.out.println(cat.gender);
 	          System.out.println(cat.height);
 	          System.out.println(cat.weight);
-<<<<<<< HEAD
+
 	          cat.run();
 	          cat.drink();
 	          cat.bark();
 
 	   }
-=======
-              cat.run();
-              cat.drink();
-              cat.bark();
 
+           
    }
 	   
->>>>>>> e82fd5461f859dec80179122515aee32620a9bbe
 
-}
+
+
