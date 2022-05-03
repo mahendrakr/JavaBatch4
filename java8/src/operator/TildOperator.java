@@ -22,6 +22,13 @@ public class TildOperator {
      int a= 150;
      byte b=(byte)a;
      System.out.println(b);
+     double d=50.6;
+     int i=(int)d;
+     System.out.println(i);
+     //10001100
+     
+     //01110100  +1 2's
+     
      
 	}
 	
