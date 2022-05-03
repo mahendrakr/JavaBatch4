@@ -19,10 +19,12 @@ public class TildOperator {
      System.out.println(~8);
      System.out.println(~-9);
      System.out.println(~10);
-     int a= 140;
+     int a= 150;
      byte b=(byte)a;
      System.out.println(b);
      
 	}
+	
+	}
 
-}
+
