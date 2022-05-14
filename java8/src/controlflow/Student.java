@@ -12,7 +12,7 @@ public class Student {
 	double twelthPercentage;
 	double bePercentage;
 	int backlogs;
-	
+	  
 	public Student(double tenthPercentage, double twelthPercentage, double bePercentage, int backlogs) {
 		super();
 		this.tenthPercentage = tenthPercentage;
