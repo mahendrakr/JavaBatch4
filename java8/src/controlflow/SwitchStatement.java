@@ -15,7 +15,7 @@ public class SwitchStatement {
     case 20:{
     System.out.println("case 10");
     break;
-    }
+    } 
    
     
     case i:{
