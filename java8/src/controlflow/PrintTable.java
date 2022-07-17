@@ -10,10 +10,10 @@ public class PrintTable {
 		}
 	}
 
-	public static void main(String[] args) {
-		System.out.println("enter table");
-     Scanner sc=new Scanner(System.in);
-     int n = sc.nextInt();
-     print(n);
-	}
+//	public static void main(String[] args) {
+//		System.out.println("enter table");
+//     Scanner sc=new Scanner(System.in);
+//     int n = sc.nextInt();
+//     print(n);
+//	}
 }

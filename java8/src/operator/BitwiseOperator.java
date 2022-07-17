@@ -19,7 +19,7 @@ public class BitwiseOperator {
     System.out.println(4 ^ 5);//1
     System.out.println(3 ^ 4);//7
     System.out.println(8 & 9);//8
-   //System.out.println(10.5 & 10.6);
+//   System.out.println(10.5 & 10.6);
 	}
 
 }

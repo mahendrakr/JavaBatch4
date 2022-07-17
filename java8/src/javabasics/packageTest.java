@@ -1,8 +1,12 @@
 package javabasics;
 
 public class packageTest {
+	public void printName() {
+		// TODO Auto-generated method stub
+		
+	}
 	public static void main(String[] args) {
-		pack2.Student stu2=new pack2.Student();
+		packageTest stu2=new packageTest();
 		stu2.printName();
 		pack1.Student stu1=new pack1.Student();
 		int age=stu1.getAge();
@@ -13,7 +17,4 @@ public class packageTest {
 		pack2.Cat cat=new pack2.Cat();
 		
 	}
-	
-	
-
 }

@@ -15,6 +15,4 @@ public int getB() {
 public void setB(int b) {
 	this.b = b;
 }
-
-
 }
