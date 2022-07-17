@@ -1,5 +1,6 @@
 package pack2;
 
+
 import pack1.Studenta;
 
 public class Student {
@@ -11,5 +12,5 @@ public class Student {
 		
         Studenta.thinking();
 
-}
+	}
 }
