@@ -12,7 +12,7 @@ public class IncrementOperator {
 		//System.out.println(a);
 		int b=10;
 		b++;
-		//System.out.println(b);
+//		System.out.println(b);
 		int x=10;
 		System.out.println(x++);
 		int y =10;
