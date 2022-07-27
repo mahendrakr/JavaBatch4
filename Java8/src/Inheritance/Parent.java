@@ -2,8 +2,8 @@ package Inheritance;
 
 public class Parent {
 
-	private int x = 10;
-	private String name = "Ram singh";
+	 int x = 10;         //private
+	 String name = "Ram singh";     //private
 
 	public synchronized String getParent() {
 		System.out.println("Parent m1");

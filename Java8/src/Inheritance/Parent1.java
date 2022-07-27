@@ -1,4 +1,10 @@
 package Inheritance;
+/**
+ * 
+ * 
+ * @author HRISHABH SINGH BAGARI
+ *
+ */
 
 public class Parent1 {
 	static {
