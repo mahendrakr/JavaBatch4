@@ -22,7 +22,14 @@ package stringapi;
  *for eg: My name is khan.
  *o/p : My eman is khan
  * String constant pool --->i> utilize memory efficiently.
- * what
+ * Q.___  diff. between String, StringBuffer and StringBuilder.
+ * Ans.-- 1-> String overrides equals method but Stringbuilder and Stringbuffer dont override equals method.
+ *        2-> String is immutable but stringbuilder and stringbuffer are mutable .
+ *        3-> String and stringbuffer are thread-safe but stringbuilder is not thread-safe.
+ *        4-> Stringbuilder performance is better then string and stringbuffer.
+ *        
+ * Q.____ explain contract of hashCode and equals method.
+ * Ans--  suppose two objects obj1 and obj2 equals method return true then it is guarantee that hashCode of both the objects must be same but vice versa not true.
  */                         
 public class StringDemo {
 
