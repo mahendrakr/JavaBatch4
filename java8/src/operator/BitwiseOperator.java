@@ -6,7 +6,7 @@ public class BitwiseOperator {
 
 	public static void main(String[] args) {
 		int x=10;
-    if (x++ < 5 && 10 > ++x) {
+    if (x++ > 5 && 10 < ++x) {
     	System.out.println("inside if block");
     	System.out.println(x);
     }

@@ -26,8 +26,9 @@ public class Animal {
 	static	int tail=1;
 	static	String horn="horrible";
 	static	String bodyShape="animal type";
+	
 	static void m1() {System.out.println();}
-
+           
 	void eating () {
 		System.out.println("tiger can eating");
 		}

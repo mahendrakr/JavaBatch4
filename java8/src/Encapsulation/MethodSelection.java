@@ -26,7 +26,7 @@ public class MethodSelection {
 		//System.out.println("float");
 //	}
 	public void m1(Long l1) {
-		System.out.println("Long");v
+		System.out.println("Long");
 	}
 	
 
