@@ -26,7 +26,6 @@ format();
 valueOf();
 intern();
 compareTo();
-
  */
 public class StringMethods {
 
@@ -36,7 +35,6 @@ public class StringMethods {
 	System.out.println(st.isEmpty());
 	System.out.println(st.charAt(0));
 	System.out.println(st.concat(" singh"));
-	
 		
 	}
 }
