@@ -24,7 +24,11 @@ public class EqualsHashCodeContract {
 		StringBuffer sb4 = new StringBuffer("rishabh");
 		System.out.println(sb3.equals(sb4));
 		
+<<<<<<< HEAD
 	    sb3.append(" baghel");
+=======
+	    sb3.append("baghel");
+>>>>>>> 7dd685cb48d460c3850c92ca8c94e70dabd7e485
 	    System.out.println(sb3);
 	    System.out.println(sb3.length());
 	    
