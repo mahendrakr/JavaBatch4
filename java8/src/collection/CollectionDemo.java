@@ -18,11 +18,14 @@ public class CollectionDemo {
     }
     ArrayList<Integer> al2=new ArrayList<Integer>();  //only Integer type is valid.
     ArrayList<Integer> al3=new ArrayList<>();
+    ArrayList<String> al4=new ArrayList<>();
     al3.add(10);
     al3.add(20);
     al=al3;
     al2=al3;
     al3=al;
+   // al3=al4;
+    al=al4;
     
     Integer i=10;
     String s="20";
