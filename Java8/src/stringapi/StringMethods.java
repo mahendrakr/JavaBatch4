@@ -25,7 +25,7 @@ toString();
 format();
 valueOf();
 intern();
-compareTo();
+compareTo();                                                                                                          
  */
 public class StringMethods {
 
