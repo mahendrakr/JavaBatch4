@@ -34,6 +34,10 @@ public class Test {
    Map<String,String> map1=new HashMap<>();
    Person<Parent> p=new Person<>(); // bounded type
    Person<Child> p1=new Person<>();
+   //Cow<ImplA> c1=new Cow<>();
+   //Cow<InterA> c2=new Cow<>();
+  // Cow<String> c3=new Cow<>();
+   
    
    
    
