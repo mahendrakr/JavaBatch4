@@ -55,22 +55,22 @@ public class ArraylistMethods {
     l2.add(40);
     
     
-   // for(int a:l1) {
-    //	l2.add(a);
+    for(int a:l1) {
+    	l2.add(a);
     	
     //}
-    l2.addAll(l1);
+//    l2.addAll(l1);
     System.out.println(l2);
-    //l2.remove(3);
-    //System.out.println(l2);
-  //  l2.removeAll(l1);
-   // l2.retainAll(l1);
-    
-    if(l1.containsAll(l2)) {
-   System.out.println("true");
-    
+//    //l2.remove(3);
+//    //System.out.println(l2);
+//  //  l2.removeAll(l1);
+//   // l2.retainAll(l1);
+//    
+//    if(l1.containsAll(l2)) {
+//   System.out.println("true");
+//    
+//	}
+//    else
+//    	System.out.println("false");
 	}
-    else
-    	System.out.println("false");
-	}
-}
+}}
