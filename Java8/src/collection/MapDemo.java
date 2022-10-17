@@ -52,6 +52,11 @@ public class MapDemo {
 		System.out.println("Key value pair*********");
 		for (Map.Entry<Integer, String> e : map.entrySet()) {
 			System.out.println(e.getKey() + " " + e.getValue());
+<<<<<<< HEAD
+=======
+			
+		
+>>>>>>> ab184d2ba361b927ec52cc10af8c6c69b4053a6c
 		}
 
 	}
