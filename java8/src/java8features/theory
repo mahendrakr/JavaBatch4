@@ -1,0 +1,36 @@
+Lambda Expression--> 
+
+eg 1: public int add(int a, int b){}
+
+convert above method  into lambda expression
+
+(int a,int b) -> {};  
+
+public void eat(){}
+
+() -> {};
+
+case 1: NO Argument method
+public void run(){}
+
+()->{};
+
+case 2: One Argumented method
+
+public void m1(int a){}
+
+(int a) -> {};
+or
+(a)->{};
+a ->{};
+
+public int getAge(){}
+
+()->{return 20};
+()->20;
+
+ functional interface --->It must have only one abstract method .  
+ 
+ to invoke/call lambda expree we need functinal interface without this we cannot lambda ecpress.
+
+  
