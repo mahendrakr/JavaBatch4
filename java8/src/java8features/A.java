@@ -7,5 +7,13 @@ public class A  implements InterfaceA{
 		// TODO Auto-generated method stub
 		
 	}
+	@Override
+	public  void m2() {
+		System.out.println("ClassA m2");
+	}
+	public static void main(String[] args) {
+		InterfaceA a=new A();
+		a.m2();
+	}
 
 }

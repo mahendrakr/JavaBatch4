@@ -49,7 +49,7 @@ public class SetDemo {
         	 
          }
          
-        // System.out.println(s1);
+         System.out.println(s1);
 //         
 //         for(int i=0;i<s1.size();i++) {
 //        	 System.out.println();
@@ -60,6 +60,7 @@ public class SetDemo {
         	 
          }
          System.out.println("******");
+         
         s1.forEach(System.out::println); 
         
          
