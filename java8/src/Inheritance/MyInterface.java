@@ -6,6 +6,8 @@ package Inheritance;
  */
 public interface MyInterface {
  int a=10;
+
+void m1();
  
  
 }

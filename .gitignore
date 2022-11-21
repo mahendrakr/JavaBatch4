@@ -26,3 +26,8 @@ hs_err_pid*
 *.classpath
 *.gitignore
 *.settings/org.eclipse.jdt.core.prefs
+/.metadata/
+/.metadata/
+/.metadata/
+/.metadata/
+/.metadata/

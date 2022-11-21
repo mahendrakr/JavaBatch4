@@ -7,7 +7,10 @@ public class ArrayV3 {
 		System.out.println(arr[3]);
 		// two dimensional
 
-		int[][] arr2 = { { 10, 20 }, { 4, 5, 6 }, { 7 }
+		int[][] arr2 = {
+				{ 10,20,56},
+				{ 4, 5, 6 }, 
+				{ 7, 4, 8 }
 
 		};
 		System.out.println(arr2[1][1]);

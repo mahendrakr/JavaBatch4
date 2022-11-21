@@ -24,7 +24,7 @@ public class ArrayV2Homework {
 		for(int[][] a:arr2) {
 			for(int[] b:a) {
 				for(int c:b) {
-					System.out.print(c+",");
+					System.out.print(c+" ");
 				}
 			}
 		}

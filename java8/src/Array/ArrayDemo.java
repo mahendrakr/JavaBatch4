@@ -29,7 +29,7 @@ public class ArrayDemo {
 		// create a string array of size 5 and initialize with your 5 friends name and
 		// access all the name using enhance
 		String[] s = new String[5];
-		s[0] = "mahi";
+		s[4] = "mahi";
 		s[1] = "Raghu";
 		s[2] = "Akshat";
 		s[3] = "Amit";

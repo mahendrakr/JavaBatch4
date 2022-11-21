@@ -9,25 +9,25 @@ public class ArrayRevison2 {
 		
 		System.out.println("-----------");
 		
-		for(int[][] a:arr) {
-			for(int[] b:a ) {
-				for(int c:b) {
-					System.out.println(c); 
-				}
-			}
+//		for(int[][] a:arr) {
+//			for(int[] b:a ) {
+//				for(int c:b) {
+//					System.out.println(c); 
+//				}
+//			}
 			
 			System.out.println("*****************");
 			
 			
-		}
+//		}
 		 for(int i=0;i<2;i++) {
 			 for(int j=0;j<3;j++) {
 				 for(int k=0;k<4;k++) {
-					 System.out.println(arr[i][j][k]);
+					 System.out.print(arr[i][j][k]+",");
 			 }
 		 }
 		 }
-		
+		System.out.println();
                      
 	}
 

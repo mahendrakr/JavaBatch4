@@ -29,23 +29,23 @@ public class ArrayListDemo {
 	    //access elements of list
 	    //approach1->using for loop_
 	    
-	      // for(int i=0; i<al2.size(); i++)     {
-	    	//   System.out.println(al2.get(i));
+//	       for(int i=0; i<al2.size(); i++)     {
+//	    	   System.out.println(al2.get(i));
 //	    	   
 //	       } 
 //	       //Aproach2->Using enhance for loop
-//	      // for(String a:al2) {
-//	    	//   System.out.println(a);
-//	     //  }
+//	       for(String a:al2) {
+//	    	   System.out.println(a);
+//	       }
 //	       //Aproach3->while loop
 //	       int i=0;
-//	      // while(i<al2.size()) {
-//	    	 //  System.out.println(al2.get(i));
-//	    	 //  i++;
+//	       while(i<al2.size()) {
+//	    	   System.out.println(al2.get(i));
+//	    	   i++;
 //	       }
 //	      //Aproach4-> ForEach
-//	      //  al2.forEach(System.out::println);
-//	       
+//	        al2.forEach(System.out::println);
+	       
 //	       //Approach5-> will discuse after lemda expresssion
 //	        
 //	       //Aproach6->using iterator
