@@ -48,9 +48,29 @@ public class LoginServlet extends HttpServlet {
 			HttpSession session = request.getSession(true);  //creation session.
 			Date createTime=new Date(session.getCreationTime());  // get session ceration time.
 			Date lastAccessTime=new Date(session.getLastAccessedTime());//get Last session Access time.			
-			request.setAttribute("uname",email);
-			request.setAttribute("phone", 1234);
-			request.setAttribute("DOB", LocalDate.now());
+			String title="welcome back to my web.";
+			Integer visitCount=new Integer(0);
+			String vckey=new String("VisitCount");   //visit count key
+			String userIDKey=new String("User ID");
+			String userID=new String("Hrishabh");
+			if(session.isNew()) {
+				title="welcome to my web";
+				session.setAttribute(userIDKey, userID);	
+				
+			}
+			else {
+				visitCount=(Integer)session.getAttribute(vckey);
+				visitCount=+1;
+				userID=(String)session.getAttribute(userIDKey);
+				
+			}
+			request.setAttribute("creationTime",createTime );
+			request.setAttribute("lastAccessTimeHere", lastAccessTime);
+			session.setAttribute(vckey, visitCount);
+			session.setAttribute("title", title);
+//			request.setAttribute("uname",email);
+//			request.setAttribute("phone", 1234);
+//			request.setAttribute("DOB", LocalDate.now());
 			//list of stirngs
 			List <String> l=new ArrayList<String>();			
 			l.add("shaili");
@@ -66,21 +86,20 @@ public class LoginServlet extends HttpServlet {
 			l2.add("xyz");
 			l2.add("abc");
 			l2.add("pqr");
-			request.setAttribute("li", l);
+			//request.setAttribute("li", l);
 			Map<String, String> map=new HashMap<>();
 			map.put("id", "123");
 			map.put("name", "Yug");
 			map.put("Branch", "CSE");
-			request.setAttribute("mp", map);
+			//request.setAttribute("mp", map);
 			List <List<String>> li=new ArrayList<>();
 			li.add(l);
 			li.add(l2);
 			li.add(l1);
-			request.setAttribute("LI", li);
-			rd = request.getRequestDispatcher("success1.jsp");
+			//request.setAttribute("LI", li);
+			//rd = request.getRequestDispatcher("success1.jsp");	
+			rd = request.getRequestDispatcher("welcome.jsp");
 			rd.forward(request, response);
-			
-			
 		} else {
 			PrintWriter out = response.getWriter();
 			out.print("sorry user name or password incorrect!!");
