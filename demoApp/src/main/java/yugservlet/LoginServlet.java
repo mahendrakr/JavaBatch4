@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
 			Date createTime=new Date(session.getCreationTime());  // get session ceration time.
 			Date lastAccessTime=new Date(session.getLastAccessedTime());//get Last session Access time.			
 			String title="welcome back to my web.";
-			Integer visitCount=new Integer(0);
+			int visitCount=0;
 			String vckey=new String("VisitCount");   //visit count key
 			String userIDKey=new String("User ID");
 			String userID=new String("Hrishabh");
@@ -59,13 +59,14 @@ public class LoginServlet extends HttpServlet {
 				
 			}
 			else {
-				visitCount=(Integer)session.getAttribute(vckey);
-				visitCount=+1;
+				visitCount=(int)session.getAttribute(vckey);
+				visitCount++;
 				userID=(String)session.getAttribute(userIDKey);
 				
 			}
-			request.setAttribute("creationTime",createTime );
-			request.setAttribute("lastAccessTimeHere", lastAccessTime);
+			System.out.println(createTime.getTime() + " "+lastAccessTime.getTime());
+			request.setAttribute("creationTime",session.getCreationTime());
+			request.setAttribute("lastAccessTimeHere", lastAccessTime.getTime());
 			session.setAttribute(vckey, visitCount);
 			session.setAttribute("title", title);
 //			request.setAttribute("uname",email);
