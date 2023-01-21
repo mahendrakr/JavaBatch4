@@ -20,7 +20,9 @@ public class JdbcDemo {
    final String url = "jdbc:mysql://localhost:3306/mydb";
    con = DriverManager.getConnection(url, "root", "Subodh@123");
    // Step 3: Prepare the SQL statement.
-   String sql = "insert into student values(101,'Nyasha')";
+  // String sql = "insert into student values(101,'Nyasha')";
+     String sql = "insert into student values(102,'surbhi')";
+  
    // Step 4: Create JDBC statement
    st = con.createStatement();
    // Step 5: Submit the SQL statement to Database using JDBC statement.
