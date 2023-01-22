@@ -12,8 +12,8 @@ public class JDBCUtil {
 	static {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String url="jdbc:mysql://localhost:3306/mydb";
-			 con = DriverManager.getConnection(url, "root","Subodh@123" );
+			String url="jdbc:mysql://localhost:3306/javabatch4";
+			 con = DriverManager.getConnection(url, "root","123456" );
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

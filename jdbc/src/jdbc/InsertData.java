@@ -15,11 +15,11 @@ public class InsertData {
 			// Step 1: Load the driver
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// step:2 establish the connection
-			String url = "jdbc:mysql://localhost:3306/mydb";
-			con = DriverManager.getConnection(url, "root", "Subodh@123");
+			String url = "jdbc:mysql://localhost:3306/javabatch4";
+			con = DriverManager.getConnection(url, "root", "123456");
 			// step 3: Prepare sql statement.
 		//	String sql = "insert into student(sid,sname) values(103,'Rhishab'),(104,'shreya')";
-			String sql = "insert into student values(106,'raj')";
+			String sql = "insert into student1 values(1 ,'surbhi' ,9922446, 'F')";
 			// step 4: Create jdbc statement
 			st = con.createStatement();
 			// step 5: submit sql statement to database using jdbc statement.
